@@ -11,7 +11,7 @@ const transition = {
   stiffness: 100,
   restDelta: 0.001,
   restSpeed: 0.001,
-};
+} as const; // dix ts fix added as const here
 
 export const MenuItem = ({
   setActive,
